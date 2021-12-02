@@ -15,8 +15,8 @@ func main() {
 
 	ls := strings.Split(string(b), "\n")
 	li := convertStrListToInt(ls)
-	fmt.Println("Input 1 increase", countOnIncrease(li))
-	fmt.Println("Input 2 increase", countOnIncrease(slidingWindow(li)))
+	fmt.Println("Part 1 increase", countOnIncrease(li))
+	fmt.Println("Part 2 increase", countOnIncrease(slidingWindow(li)))
 }
 
 func convertStrListToInt(ls []string) []int {
